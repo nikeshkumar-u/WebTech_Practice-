@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Student Registration Form</h1>
+
+    <form action="" autocomplete="off">
+        <fieldset title="Student details">
+            <legend>Student details</legend>
+            <label for="sname">Student Name</label>
+        <input type="text" id="sname" name="sname" placeholder="Enter your name" required > <br><br>
+
+        <label for="ph">Phone Number</label>
+        <input type="tel" id="ph" name="sphno" placeholder="Enter your phonenumber"> <br><br>
+
+        <label for="pass">Password</label>
+        <input type="password" id="pass" name="spass" placeholder="Enter your password"> <br><br>
+        
+
+        <label for="sage">Student age</label>
+        <input type="number" id="sage" name="sage" placeholder="Enter your age"> <br><br>
+        
+        <label for="email">Student Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" value="@gmail.com"> <br><br>
+       </fieldset>
+       <fieldset>
+         <label for="sub">Subjects</label> <br> <br>
+        
+        <label for="sub1">HTML</label> 
+        <input type="checkbox" id="sub1" name="sub1" value="html"> 
+        <label for="sub2">CSS</label> 
+        <input type="checkbox" id="sub2" name="sub2" value="CSS"> 
+        <label for="sub3">JavaScript</label> 
+        <input type="checkbox" id="sub3" name="Sub3" value="JavaScript">  <br><br>
+
+        <label for="">Select your gender</label> <br><br>
+
+        <label for="g1">Male</label>
+        <input type="radio" id="g1" name="gender" value="Male">
+        <label for="g2">Female</label>
+        <input type="radio" id="g2" name="gender" value="Female" > 
+        <label for="g3">Other</label>
+        <input type="radio" id="g3" name="gender" value="Other" > <br><br>
+
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="DOB" id="dob" value=""> <br><br>
+        
+        <label for="address">Address</label> <br>
+        <textarea name="address" id="address" width="" hight="" rows="20" cols="40" placeholder="Enter your address"></textarea> <br><br>
+
+        <label for="">Select The Courses</label>
+
+        <select name="course" id="">
+            <option value="">Select from here</option>
+            <option value="">MERN Stack</option>
+            <option value="">java FullStack</option>
+            <option value="">python FullStack</option>
+            <option value="">Big Data</option>
+        </select> <br><br>
+
+        <label for="sal">Expected salary</label>
+        <input type="range"  id="sal" name="esal"> <br><br>
+       </fieldset>
+
+<!-- Whenever we creat checkbox we need to give value
+     Whenever we creat radio button we need to give value and name (Name should be same) -->
+        <fieldset>
+            <button type="submit">register</button>
+        <button type="reset">reset</button>
+
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>
