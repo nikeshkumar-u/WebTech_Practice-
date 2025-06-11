@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+
+    <form action="" autocomplete="off">
+        <label for="Fname">First Name</label>
+    <input type="text" id="Fname" name="fnam"> <br><br>
+    
+    <label for="Lname">Last Name</label>
+    <input type="text" id="Lname"  name="lname"> <br><br>
+    
+    <label for="dob">Date of Birth</label>
+    <input type="date" id="dob" name="DOB"> <br><br>
+    
+    <label for="Email">Email ID</label>
+    <input type="email" id="Email" name="Email"> <br><br>
+   
+    <label for="">Gender</label>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="g1"> 
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="g1"> <br><br>
+    <label for="Address">Address</label>
+    <textarea name="Address" id="Address" cols="30" rows="10"></textarea> <br><br>
+
+    <label for="City">City</label>
+    <input type="text" name="City" id="City"> <br><br>
+
+    <label for="Pincode">Pin Code</label>
+    <input type="number" name="Pincode" id="Pincode"> <br><br>
+
+    <label for="state">State</label>
+    <input type="text" name="state" id="state"><br><br>
+    <label for="country">Country</label>
+    <select name="country" id="country">
+        <option value="c1">India</option>
+        <option value="c2">Pakisthan</option>
+        <option value="c3">US</option>
+        <option value="c4">UK</option>
+    </select> <br><br>
+
+    <label for="">Hobbies</label>
+
+    <label for="h1">Drawing</label>
+    <input type="checkbox" name="h1" id="h1">
+    <label for="h2">Singing</label>
+    <input type="checkbox" name="h2" id="h2">
+    <label for="h3">Dancing</label>
+    <input type="checkbox" name="h3" id="h3">
+    <label for="h4">Sketching</label>
+    <input type="checkbox" name="h4" id="h4">
+    <label for="h5">Others</label>
+    <input type="checkbox" name="h5" id="h5">
+    <input type="text" name="h5" id="h5"> <br><br>
+
+    <label for="">Qualification</label>
+    <table style="border: 10cm;">
+        <tr>
+            <th>SI.No</th>
+            <th>Examination</th>
+            <th>Board</th>
+            <th>Percentage</th>
+            <th>Year of Passing</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Class Ⅹ</td>
+            <td>
+                <input type="text" name="Board10th" id="">
+            </td>
+            <td>
+                <input type="text" name="Percentage10th" id="">
+            </td>
+            <td>
+                <input type="text" name="Yop10th" id="">
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Class Ⅻ</td>
+            <td>
+                <input type="text" name="Board12th" id="">
+            </td>
+            <td>
+                <input type="text" name="Percentage12th" id="">
+            </td>
+            <td>
+                <input type="text" name="Yop12th" id="">
+            </td>
+        </tr>
+        <tr>
+             <td>3</td>
+            <td>Graduation</td>
+            <td>
+                <input type="text" name="Gboard" id="">
+            </td>
+            <td>
+                <input type="text" name="PercentageG" id="">
+            </td>
+            <td>
+                <input type="text" name="YopG" id="">
+            </td>
+        </tr>
+        <tr>
+             <td>4</td>
+            <td>Masters</td>
+            <td>
+                <input type="text" name="Mboard" id="">
+            </td>
+            <td>
+                <input type="text" name="PercentageM" id="">
+            </td>
+            <td>
+                <input type="text" name="YopM" id="">
+            </td>
+        </tr>
+    </table> <br><br>
+
+    <label for="">Course Applied for</label>
+    
+    <label for="c1">BCA</label>
+    <input type="radio" name="course" id="c1">
+     <label for="c2">B.Com</label>
+    <input type="radio" name="course" id="c2">
+     <label for="c3">B.Sc</label>
+    <input type="radio" name="course" id="c3">
+     <label for="c4">B.A</label>
+    <input type="radio" name="course" id="c4">
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+
+    </form>
+
+
+
+</body>
+</html>
