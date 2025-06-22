@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+   display: flex;
+   height: 100vh;
+   align-items: center;
+   justify-content: center;
+}
+.outer>.inner{
+    border: 10px solid black;
+    height: 420px;
+    width: 400px;
+}
+.row1{
+    display: flex;
+}
+.row2{
+    display: flex;
+}
+.w{
+    height: 50px;
+    width: 50px;
+}
+.b{
+    height:50px;
+    width: 50px;
+    background-color: black;
+}

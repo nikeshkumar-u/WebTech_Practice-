@@ -1,0 +1,42 @@
+img{
+    height:100px ;
+    width: 150px;
+   border-radius: 100px;
+}
+.button{
+    display: block;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 60px;
+    background-color: orange;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: aqua;
+    color:white;
+    border: none;
+}
+div{
+    border: none;
+    border-radius: 100px;
+    background-color: red;
+
+}
+.button{
+    margin: 5px ;
+    
+}
+div>h5{
+    font-style: italic;
+}
+div{
+    
+    text-align: center;
+}
+div{
+    margin-left: 450px;
+    margin-right: 450px;
+    padding: 70px;
+}
+

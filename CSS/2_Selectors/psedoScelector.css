@@ -1,0 +1,73 @@
+nav {
+    background-color: aqua;
+}
+nav > h2:hover{
+       color: brown;
+       text-decoration: underline;
+       font-style: italic;
+}
+header{
+    background-color: palegreen;
+    height: 200px;
+    text-align: center;
+}
+header > h1:active {
+  color: aquamarine;
+  
+}
+section{
+    background-color: rgb(213, 149, 149);
+}
+section > h1:nth-child(2){
+    color: rgb(217, 198, 235);
+}
+section > p:nth-child(6){
+    background-color: rgb(217, 217, 230);
+}
+section>ol>li:nth-child(2n+1){
+    background-color: wheat;
+}
+section>ol>li:nth-child(2n){
+    background-color: rgb(205, 148, 44);
+    
+}
+article > h1{
+    text-transform: capitalize;
+    text-align: center;
+}
+article > p{
+    font-size: xx-large;
+
+}
+article>p::first-letter{
+    font-size: 50px;
+}
+article>p::first-line{
+    font-style: italic;
+}
+article>h1::before{
+    content: "****"; 
+    color: red;   
+    /* important */
+}
+article>h1::after{
+    content: "****";
+    color: green;
+}
+article::selection{
+    background-color: black;
+    color: azure;
+}
+article>ol>li::marker{
+    color: bisque;
+}
+form > input{
+    background-color: aquamarine;
+}
+.container > a[target="_self"]{
+    background-color: rgb(201, 201, 215);
+
+}
+.container > a[target="_blank"]{
+    font-size: 20px;
+}

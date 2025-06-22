@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: rgb(87, 202, 164);
+    height: 20vh;
+    justify-items: center;
+   }
+.nav>#h1{
+    font-size: 50px;
+}
+
+.nav>#b1{
+    margin: 15px;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    background-color: rgb(41, 187, 187);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    font-style: italic;
+}
+.nav>#b1:hover{
+    background-color: bisque;
+}
+.nav>#h2{
+    letter-spacing: 1.5px;
+}
+section{
+    height: 75vh;
+    background-color: rgb(212, 111, 111);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+section>.card{
+    border: 2px solid black;
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+    background-color: rgb(18, 184, 128);
+    box-shadow: 10px 10px 10px black;
+    
+}
+.menu{
+    background-color: black;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+    
+}
+.menu>ul{
+    color: white;
+    display: flex;
+    gap: 30px;
+    margin: 10px;
+    
+}
+section>.card>img{
+    height: 60%;
+    width: 100%;
+    border-radius: 15px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+section>div{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+section>.card>.title{
+    margin: 15px;
+    text-align: center;
+}
+section>.card>.DD{
+    margin: 5px;
+    text-align: center;
+}
