@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color: black;
+}
+.inner{
+    background-color: brown;
+    height: 250px;
+    width: 250px;
+    transition: all 2s ease-in ;
+}
+.inner:hover{
+    border-radius: 200px;
+    background-color: aquamarine;
+}
