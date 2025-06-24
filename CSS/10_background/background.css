@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(135deg, #B2FEFA 10%, #0ED2F7 100%);
+    
+}
+.outer>.inner{
+    height: 400px;
+    width: 600px;
+    border: 5px solid black;
+    background-color: rgb(255, 255, 255);
+    background-image: url("https://images.pexels.com/photos/11575289/pexels-photo-11575289.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-repeat: repeat-x;
+    
+}
