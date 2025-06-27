@@ -18,9 +18,9 @@
     text-align: center;
     background-color: aqua;
     box-shadow: 10px 10px 10px black;
-    overflow: hidden;
+     overflow: hidden;
     overflow: auto;
-    
+     
 }
 #heading{
     margin-top: 20px;

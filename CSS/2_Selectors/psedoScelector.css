@@ -61,6 +61,7 @@ article::selection{
 article>ol>li::marker{
     color: bisque;
 }
+
 form > input{
     background-color: aquamarine;
 }
